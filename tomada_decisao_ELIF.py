@@ -12,3 +12,7 @@ else:
     print ("Idade inferior a 65 anos.")
 
 print("Análise de Atendimento Priortário Conclúida!")
+
+#O elif nos dá a possibilidade de fazer uma comparação composta, visto que não é uma boa prática usar if's dentro de outros if's, para isso existe o elif
+#No código acima verificamos se a idade do paciente é maior ou igual a 65 anos e, se a resposta for Falsa, devemos verificar ainda se o paciente está com suspeita de doença infecto-contagiosa
+#E se, ainda assim, for Falsa a condição, então, podemos considerar que o paciente deve aguardar sem prioridade na sala comum de espera
